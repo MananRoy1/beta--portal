@@ -1,22 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <title>M App</title>
+  <title>My App</title>
+   <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
 
+        nav a {
+            color: #eee;
+            margin-right: 20px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
 
-    <meta name="description" content="This is a Production application for learning Git merge conflicts.">
-
-
-    <meta name="author" content="Team Beta">
-
-
-    <link rel="stylesheet" href="styles/master.css">
+        footer {
+            background: #004a9f;
+            color: #eee;
+            padding: 15px;
+            text-align: right;
+        }
+       }
+      
+    </style>
 </head>
 
 <body>
-
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </nav>
+    
     <header>
-        <h1>Welcome sdnv   My App</h1>
+        <h1>Welcome to My App</h1>
         <p>Your one-stop solution for everything you do.</p>
     </header>
 
@@ -70,33 +90,61 @@
             <p>Custom solutions for large teams</p>
             <span>xvsd us</span>
         </div>
+
+    <section id="pricing">
+      <h3>FEATURE Plan</h3>
+      <p>₹199 per month after trial</p>
+
     </section>
 
-
-    <section id="contact">
-        <h2>masc Us Now</h2>
-        <form>
-            <label>Name</label>
-            <input type="text" placeholder="Enter your name here">
-
-            <label>Email</label>
-            <input type="email" placeholder="Enter your email here">
-
-            <label>Message</label>
-            <textarea placeholder="Write your message here"></textarea>
-
-            <button type="submit">Send sac</button>
-        </form>
+    <section id="testimonials">
+      <h3>What FEATURE Users Say</h3>
+      <p>FEATURE build looks promising</p>
     </section>
 
+    <section class="hero">
+      <h2>Next-Gen Platform</h2>
+      <p>Experience the future before release</p>
+      <button>Join Beta</button>
+      <button>Request Access</button>
+    </section>
+
+    <section class="features">
+      <ul>
+        <li>AI Assistance</li>
+        <li>Advanced Analytics</li>
+        <li>Cloud Sync</li>
+        <li>Auto Scaling</li>
+      </ul>
+    </section>
+
+    <section class="pricing">
+      <h3>Beta Plan</h3>
+      <p>₹199 / month after trial</p>
+    </section>
 
     <footer>
         <p>© 2026 My App. All rights reserved by Manan-Roy.</p>
         <p>Made with ❤️ by Tevdfsvdsam Beta</p>
     </footer>
 
+    <div class="card">
+        <h3>Notifications</h3>
+        <ul>
+            <li>New signup</li>
+            <li>Password reset</li>
+            <li>Payment received</li>
+        </ul>
+    </div>
+
     <script>
-        console.log("Application loaded successfully");
+      console.log("Feature UI loaded");
+
+      function init() {
+        console.log("Initializing feature UI");
+      }
+
+      init();
     </script>
-</body>
+  </body>
 </html>
